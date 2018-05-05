@@ -4,21 +4,12 @@ markdown: kramdown
 # '': for local development (localhost:4000)
 # '': for root level domains (mycustomdomain.com)
 # '/projectname': for subdomains (user.github.io/projectname)
-baseurl: 'designsystem'
+baseurl: ''
 permalink: :title.html
 
 collections:
-  buttons:
+  patterns:
     output: true
     permalink: patterns/:path/
-  typography:
-    output: true
-    permalink: typography/:path/
-  navigation:
-    output: true
-    permalink: navigation/:path/
-  forms:
-    output: true
-    permalink: forms/:path/
 
 markdown-patterns: false
