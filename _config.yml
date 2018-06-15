@@ -4,7 +4,7 @@ markdown: kramdown
 # '': for local development (localhost:4000)
 # '': for root level domains (mycustomdomain.com)
 # '/projectname': for subdomains (user.github.io/projectname)
-baseurl: '/projectname'
+baseurl: '/designsystem'
 permalink: :title.html
 
 collections:
